@@ -7,6 +7,7 @@ public class TheStaircaseChallenge {
 
 
         //print
+        System.out.println(Hash);
     }
 
 }

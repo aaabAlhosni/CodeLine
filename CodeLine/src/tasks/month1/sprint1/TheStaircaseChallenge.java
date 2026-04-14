@@ -8,6 +8,10 @@ public class TheStaircaseChallenge {
 
         //print
         System.out.println(Hash);
+        System.out.println(Hash+Hash);
+        System.out.println(Hash+Hash+Hash);
+        System.out.println(Hash+Hash+Hash+Hash);
+
     }
 
 }

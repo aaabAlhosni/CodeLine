@@ -8,5 +8,6 @@ public class VariableSwap {
         int temp = a;
         a = b;
         b = temp;
+        System.out.println("After swap: a = " + a + ", b = " + b);
     }
 }

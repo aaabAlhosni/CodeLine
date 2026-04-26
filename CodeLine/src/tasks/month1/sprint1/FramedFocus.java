@@ -5,5 +5,7 @@ public class FramedFocus {
         System.out.println("***********************");
         System.out.println("* *");
         System.out.println("* \"Keep Learning\"   *");
+        System.out.println("* *");
+        System.out.println("***********************");
     }
 }

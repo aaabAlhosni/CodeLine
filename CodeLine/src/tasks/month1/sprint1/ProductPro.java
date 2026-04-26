@@ -5,5 +5,6 @@ public class ProductPro {
         double num1 = 12.5;
         double num2 = 4.0;
         double product = num1 * num2;
+        System.out.println(product);
     }
 }

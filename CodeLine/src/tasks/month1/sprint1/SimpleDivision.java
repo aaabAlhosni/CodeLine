@@ -5,5 +5,6 @@ public class SimpleDivision {
         int total = 100;
         int parts = 5;
         int quotient = total / parts;
+        System.out.println(quotient);
     }
 }

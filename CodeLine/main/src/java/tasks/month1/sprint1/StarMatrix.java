@@ -6,5 +6,7 @@ public class StarMatrix {
         System.out.println("* * * * *");
         System.out.println("* * * * *");
         System.out.println("* * * * *");
+        System.out.println("* * * * *");
+        System.out.println("* * * * *");
     }
 }

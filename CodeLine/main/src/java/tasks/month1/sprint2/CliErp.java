@@ -165,4 +165,10 @@ public class CilErp {
 
                                     //handling Crash program
                                     if (scannerBuffer.hasNextInt()) {
-                                        int searchComplain = Integer.parseInt(scannerBu
+                                        int searchComplain = Integer.parseInt(scannerBuffer.nextLine());
+                                        int searchComplainIndex = complains.indexOf(searchComplain);
+
+                                        if (searchComplainIndex != -1) {
+
+                                            System.out.printf("Ticket #[%s] Details\n: ", searchComplain);
+                                            System.out.println("descri

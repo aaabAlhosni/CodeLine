@@ -272,4 +272,14 @@ public class CilErp {
                                 }
                             }
 
-                 
+                            //Error Handling
+                            else {
+                                System.out.println("Choose Valid option, try Again");
+
+                            }
+                        }
+
+                    }
+                }
+//==========================================================================================================
+               

@@ -254,4 +254,12 @@ public class CilErp {
 
                                             }
                                         }
-                                        e
+                                        else if (staffAdminMenu == 2) {
+                                            System.out.println("===== staff complains =====");
+                                            System.out.println(staffComplains);
+
+                                        }
+                                    }
+                                    else {
+
+                                        

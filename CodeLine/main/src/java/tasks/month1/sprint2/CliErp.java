@@ -262,4 +262,14 @@ public class CilErp {
                                     }
                                     else {
 
-                                        
+                                        System.out.println("Try again, please enter Valid input example : 1,2,3,...,5");
+
+                                    }
+                                }
+                                //Admin option 5 - exit to main menu
+                                else if (adminMenuOption == 5) {
+
+                                }
+                            }
+
+                 

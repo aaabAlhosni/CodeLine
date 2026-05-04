@@ -221,3 +221,10 @@ public class CilErp {
                                     System.out.print("1: Assign staff to a complain\n2: View all assignment\n");
 
                                     //handling Crash program
+                                    if (scannerBuffer.hasNextInt()) {
+
+                                        int staffAdminMenu = Integer.parseInt(scannerBuffer.nextLine());
+
+                                        if (staffAdminMenu == 1) {
+                                            System.out.println("enter the complain Id example[Complain Id: 8868] .....>> ");
+ 

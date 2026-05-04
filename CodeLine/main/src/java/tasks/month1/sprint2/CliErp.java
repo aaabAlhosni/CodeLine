@@ -307,4 +307,8 @@ public class CilErp {
 //                                System.out.println("ID: " + complainAssined.get(loop));
 //                                System.out.println("Name: " + staff.get(loop));
 //                                System.out.println("Comment: " + comment.get(loop));
-      
+                                        System.out.printf("= Staff[%s] --- ComplainID[%d] --- comments:[\"%s\"] \n", staff.get(loop), complainAssined.get(loop), comment.get(loop));
+                                    } else {
+                                        System.out.printf("Staff %s is not been found, try again ", searchStaff);
+
+                                    

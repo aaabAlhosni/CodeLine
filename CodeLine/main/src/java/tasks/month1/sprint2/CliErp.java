@@ -159,4 +159,10 @@ public class CilErp {
                                 }
 
                                 //Admin option 2
-                                else if (a
+                                else if (adminMenuOption == 2) {
+
+                                    System.out.println("Complain Search --\t\tEnter ComplainID example[Complain ID:6685] ..>");
+
+                                    //handling Crash program
+                                    if (scannerBuffer.hasNextInt()) {
+                                        int searchComplain = Integer.parseInt(scannerBu

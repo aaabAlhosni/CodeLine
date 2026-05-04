@@ -290,4 +290,11 @@ public class CilErp {
                     if (staff.contains(searchStaff)) {
 
 
- 
+                        //menu
+                        System.out.print("Enter an option\n1: View complain\n2: Adding Comment\n3: Close Complain\n4: exit to Main Menu\n");
+
+                        //handling Crash program
+                        if (scannerBuffer.hasNextInt()) {
+
+                            int staffMenu = Integer.parseInt(scannerBuffer.nextLine());
+   

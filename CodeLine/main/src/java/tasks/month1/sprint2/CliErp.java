@@ -201,4 +201,6 @@ public class CilErp {
                                     } else {
 
                                         System.out.println("Closing complain *******");
-                    
+                                        //changing the status from open to close
+                                        complainStatus.replace(closingComplain, "Closed");
+                                        System.out.printf("Sucessfully!\nclosed the complain: #[%s]\ncomplain status changed to >>>>>>>>>> %s\n", complains.get(searchComplainIndex), complainStatus.get(searchComplainInde

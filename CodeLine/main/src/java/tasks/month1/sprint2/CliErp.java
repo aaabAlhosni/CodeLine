@@ -18,4 +18,13 @@ public class CilErp {
         HashMap<Integer, String> staffComplains = new HashMap<>();
         //task 5
         ArrayList<String> staff = new ArrayList<>();
-        ArrayList<Integer> complainAssi
+        ArrayList<Integer> complainAssined = new ArrayList<>();
+        ArrayList<String> comment = new ArrayList<>();
+
+        String[] proiorty = {"Low", "Medium", "High"};
+//  Looping Menu
+        boolean menuIsRunning = true;
+        while (menuIsRunning == true) {
+//  Menu
+            System.out.println("============ Wellcome - Main Menu =============");
+            System.out.println("Please choose an

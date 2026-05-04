@@ -302,4 +302,9 @@ public class CilErp {
                                 for (int loop = 0; loop < staff.size(); loop++) {
                                     // Check if the name matches (ignoring case is usually better)
 
-                                    if (staff.get(loo
+                                    if (staff.get(loop).equals(searchStaff)) {
+//                                System.out.println("\n--- Ticket Found ---");
+//                                System.out.println("ID: " + complainAssined.get(loop));
+//                                System.out.println("Name: " + staff.get(loop));
+//                                System.out.println("Comment: " + comment.get(loop));
+      

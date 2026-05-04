@@ -282,4 +282,12 @@ public class CilErp {
                     }
                 }
 //==========================================================================================================
-               
+                else if (IndexOption == 3) {
+                    System.out.println("========== Support Staff");
+                    System.out.println("Enter name of staff, Remember to enter the correct spelling for example Name:[Fahad not same as fahad] ");
+                    String searchStaff = scannerBuffer.nextLine();
+
+                    if (staff.contains(searchStaff)) {
+
+
+ 

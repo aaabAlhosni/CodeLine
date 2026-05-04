@@ -311,4 +311,10 @@ public class CilErp {
                                     } else {
                                         System.out.printf("Staff %s is not been found, try again ", searchStaff);
 
-                                    
+                                    }
+                                }
+                            } else if (staffMenu == 2) {
+                                System.out.println("===== Add/Modify a comment ======");
+                                System.out.print("Enter Complaint ID:\n");
+                                int searchId = Integer.parseInt(scannerBuffer.nextLine());
+                       

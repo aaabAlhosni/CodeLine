@@ -317,4 +317,10 @@ public class CilErp {
                                 System.out.println("===== Add/Modify a comment ======");
                                 System.out.print("Enter Complaint ID:\n");
                                 int searchId = Integer.parseInt(scannerBuffer.nextLine());
-                       
+                                for (int searchcomment = 0; searchcomment < complainAssined.size(); searchcomment++) {
+                                    if (complainAssined.get(searchcomment) == (searchId)) {
+
+                                        System.out.println("Current Comment: " + comment.get(searchcomment));
+
+
+                                        System.out.print("Enter the ne

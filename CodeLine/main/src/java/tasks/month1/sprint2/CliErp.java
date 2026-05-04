@@ -125,3 +125,10 @@ public class CilErp {
                     // Top Secret- Please Keep this Safe
                     //++++++++++++++++++++++
                     int adminPIN = 12345678;
+                    //++++++++++++++++++++++
+                    System.out.println("========= Admin Login ");
+                    System.out.println("Please Enter the Admin Pin to Login");
+
+                    //handling Crash program
+                    if (scannerBuffer.hasNextInt()) {
+                        int adminPinIndex = Integer.parseInt(scannerBuffer.nextL

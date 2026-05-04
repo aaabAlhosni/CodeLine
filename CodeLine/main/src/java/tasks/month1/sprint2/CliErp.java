@@ -146,4 +146,11 @@ public class CilErp {
                                 int adminMenuOption = Integer.parseInt(scannerBuffer.nextLine());
 
                                 //Admin option 1
-                            
+                                if (adminMenuOption == 1) {
+
+                                    System.out.println("======== Report Of All Complains =========\n ");
+
+                                    //Printing ALL Complains Tickets
+                                    for (int allComplains = 0; allComplains < complains.size(); allComplains++) {
+
+                                        System.o

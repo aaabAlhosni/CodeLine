@@ -368,4 +368,12 @@ public class CilErp {
 
                                     } else {
                                         complainStatus.replace(searchCloseComplain, "closed");
-                                        System.out.println("Sucessfully closed comp
+                                        System.out.println("Sucessfully closed complain");
+                                        System.out.println("New Status: " + complainStatus.get(searchCloseComplain));
+                                    }
+                                } else {
+                                    System.out.println("Please type a vaild complain ID,try again");
+
+                                }
+
+                            }

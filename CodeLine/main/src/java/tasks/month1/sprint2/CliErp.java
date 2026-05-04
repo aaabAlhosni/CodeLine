@@ -400,3 +400,16 @@ public class CilErp {
                 }
             }
 //==========================================================================================================
+//  non existing input error handling
+            else {
+                System.out.println("try again.");
+                System.out.println("please enter invalid option ex: Input = 1,2,3,4.....,5");
+                scannerBuffer.nextLine();
+            }
+        }
+
+        scannerBuffer.close();
+    }
+}
+
+//Regarding complain status , New array list is been Added as n

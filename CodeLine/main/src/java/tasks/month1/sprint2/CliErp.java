@@ -36,4 +36,12 @@ public class CilErp {
 
 
 //  menu Options
-//===========================================================================
+//==========================================================================================================
+            //handling Crash program
+            if (scannerBuffer.hasNextInt()) {
+                int IndexOption = Integer.parseInt(scannerBuffer.nextLine());
+
+
+                if (IndexOption == 1) {
+                    System.out.println("Customer module");
+                    System.out.println("Enter an option :\n1: create a Compla

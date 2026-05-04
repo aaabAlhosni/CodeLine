@@ -377,3 +377,17 @@ public class CilErp {
                                 }
 
                             }
+                            else {
+                                System.out.println("invaild option");
+
+                            }
+                        }
+                    }
+                    else {
+
+                        System.out.println("Try again");
+
+                    }
+                }
+
+//=========================================================

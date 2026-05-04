@@ -93,4 +93,8 @@ public class CilErp {
                                         System.out.print("choose the new status \"Low\" \"High\" \"Medium\" .....>\t");
                                         String chooseProiorty = scannerBuffer.nextLine();
 
-        
+                                        //choosing priorty
+                                        if (chooseProiorty.equals("low") || chooseProiorty.equals("LOW")) {
+                                            complainsProiorty.add(proiorty[0]);
+                                        } else if (chooseProiorty.equals("High") || chooseProiorty.equals("HIGH")) {
+               

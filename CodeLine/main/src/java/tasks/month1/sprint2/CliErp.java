@@ -332,4 +332,11 @@ public class CilErp {
                                         System.out.println("Update successful for " + staff.get(searchcomment) + "!");
 
                                     } else {
-                      
+                                        System.out.println("ID not found. Try again");
+                                    }
+
+                                }
+                            } else if (staffMenu == 3) {
+                                System.out.println("===== Close Complains ======");
+                                System.out.print("Enter Complaint ID:\n");
+                 

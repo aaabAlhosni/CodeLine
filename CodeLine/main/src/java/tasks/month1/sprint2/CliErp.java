@@ -242,4 +242,7 @@ public class CilErp {
                                                     System.out.println("enter the staff person you want to assign to .....>> ");
                                                     String staffAssign = scannerBuffer.nextLine();
 
-                                      
+                                                    staff.add(staffAssign);
+                                                    complainAssined.add(complainid);
+                                                    comment.add("No-comment");
+                                                    System.out.printf("======sucessfully\nassigned staff:[%s] ---- to complain #[%s]\ngood luck to him\n", staffAssign, c

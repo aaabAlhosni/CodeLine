@@ -171,4 +171,11 @@ public class CilErp {
                                         if (searchComplainIndex != -1) {
 
                                             System.out.printf("Ticket #[%s] Details\n: ", searchComplain);
-                                            System.out.println("descri
+                                            System.out.println("description:" + descriptions.get(searchComplainIndex));
+                                            System.out.println("Proiorty: " + complainsProiorty.get(searchComplainIndex));
+                                        }
+                                    }
+
+                                    else {
+
+                                        System.out.println("ComplainID Is

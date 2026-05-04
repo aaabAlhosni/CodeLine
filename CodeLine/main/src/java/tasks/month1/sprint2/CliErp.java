@@ -356,4 +356,11 @@ public class CilErp {
 //
 //                            }
 //                            else {
-//                                System.out.println("ID not 
+//                                System.out.println("ID not found. Try again");}
+//
+//                        }
+
+                                if (searchCloseComplain >= complains.size() || searchCloseComplain < 0) {
+                                    System.out.println("Current Status: " + complainStatus.get(searchCloseComplain));
+
+                                    if (complainStatus.containsKey(searchCloseComplain) && co

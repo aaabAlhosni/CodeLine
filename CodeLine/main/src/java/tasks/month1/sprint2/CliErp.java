@@ -323,4 +323,13 @@ public class CilErp {
                                         System.out.println("Current Comment: " + comment.get(searchcomment));
 
 
-                                        System.out.print("Enter the ne
+                                        System.out.print("Enter the new comment: ");
+                                        String newComment = scannerBuffer.nextLine();
+
+
+                                        comment.set(searchcomment, newComment);
+
+                                        System.out.println("Update successful for " + staff.get(searchcomment) + "!");
+
+                                    } else {
+                      

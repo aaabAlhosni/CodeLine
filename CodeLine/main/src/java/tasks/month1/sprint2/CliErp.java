@@ -193,4 +193,12 @@ public class CilErp {
                                     if (scannerBuffer.hasNextInt()) {
                                     int closingComplain = Integer.parseInt(scannerBuffer.nextLine());
 
-                                    int searchComplainIndex = comp
+                                    int searchComplainIndex = complains.indexOf(closingComplain);
+
+                                    if (searchComplainIndex >= complains.size() || searchComplainIndex < 0) {
+
+                                        System.out.println("Try again");
+                                    } else {
+
+                                        System.out.println("Closing complain *******");
+                    

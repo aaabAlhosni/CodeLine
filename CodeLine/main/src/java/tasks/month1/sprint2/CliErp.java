@@ -84,4 +84,6 @@ public class CilErp {
                                     System.out.println("proiorty : Set to [Medium]Default , do you wat to change it (Y/n)?");
                                     String changeProiorty = scannerBuffer.nextLine();
 
-                        
+                                    if (changeProiorty.equals("y") || changeProiorty.equals("Y") || changeProiorty.equals("yes") || changeProiorty.equals("YES")) {
+                                        System.out.printf("ComplainID\t\t %s\n", complains.get(currentComplain));
+                                        System.out.printf("Current status : [%s]\n", complainsProiorty.get(currentCom

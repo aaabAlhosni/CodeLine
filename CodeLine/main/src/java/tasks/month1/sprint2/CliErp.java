@@ -78,4 +78,10 @@ public class CilErp {
                                     //Displaying complains
                                     int currentComplain = complains.indexOf(complainIndex);
                                     System.out.printf("Complain ID: #[%s]\n", complains.get(currentComplain));
-                                   
+                                    System.out.printf("Description: %s\n", descriptions.get(currentComplain));
+
+                                    //changeing proiorty
+                                    System.out.println("proiorty : Set to [Medium]Default , do you wat to change it (Y/n)?");
+                                    String changeProiorty = scannerBuffer.nextLine();
+
+                        

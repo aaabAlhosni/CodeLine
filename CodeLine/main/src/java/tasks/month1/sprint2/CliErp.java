@@ -153,4 +153,10 @@ public class CilErp {
                                     //Printing ALL Complains Tickets
                                     for (int allComplains = 0; allComplains < complains.size(); allComplains++) {
 
-                                        System.o
+                                        System.out.printf("# --- Id[%d]\tDescription[%s]\tProiorty[%s]\n", complains.get(allComplains)
+                                                , descriptions.get(allComplains), complainsProiorty.get(allComplains));
+                                    }
+                                }
+
+                                //Admin option 2
+                                else if (a

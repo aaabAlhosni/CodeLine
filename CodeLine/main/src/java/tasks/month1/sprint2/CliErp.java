@@ -187,4 +187,10 @@ public class CilErp {
                                 else if (adminMenuOption == 3) {
 
                                     System.out.println("========== Closing complain");
-                                    S
+                                    System.out.println("Enter the complain Id Example[ComplainID: 8868]");
+
+                                    //handling Crash program
+                                    if (scannerBuffer.hasNextInt()) {
+                                    int closingComplain = Integer.parseInt(scannerBuffer.nextLine());
+
+                                    int searchComplainIndex = comp

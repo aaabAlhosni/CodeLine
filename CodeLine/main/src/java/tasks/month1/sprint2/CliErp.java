@@ -412,4 +412,12 @@ public class CilErp {
     }
 }
 
-//Regarding complain status , New array list is been Added as n
+//Regarding complain status , New array list is been Added as new Input
+
+//When new ticket is added the Array list store its status to "Open"
+
+//Admin can change the status by calling the index and modifying the code.
+
+//extending the admin page, new hash map added in input of the program , they will store [Key: value] for support staff
+
+//support staff menu is located on admin option in the program

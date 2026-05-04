@@ -178,4 +178,13 @@ public class CilErp {
 
                                     else {
 
-                                        System.out.println("ComplainID Is
+                                        System.out.println("ComplainID Is Missmatching or Incorrect, please try again\n........");
+                                    }
+                                }
+
+
+                                //Admin option 3
+                                else if (adminMenuOption == 3) {
+
+                                    System.out.println("========== Closing complain");
+                                    S

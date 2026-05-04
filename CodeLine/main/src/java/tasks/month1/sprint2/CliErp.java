@@ -106,4 +106,14 @@ public class CilErp {
                                         System.out.println("Successfully ");
                                     } else {
                                         System.out.println("try again, please these options  y/yes : n/no\n");
-                  
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    //error handling
+                    else {
+                        System.out.println(" Try again ,\n please input vaild option ex: 1,2,...,4");
+                        System.out.println("Going back to Main Menu");
+

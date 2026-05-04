@@ -131,4 +131,12 @@ public class CilErp {
 
                     //handling Crash program
                     if (scannerBuffer.hasNextInt()) {
-                        int adminPinIndex = Integer.parseInt(scannerBuffer.nextL
+                        int adminPinIndex = Integer.parseInt(scannerBuffer.nextLine());
+
+                        if (adminPinIndex != adminPIN) {
+
+                            System.out.println("Invaid Pin\t\t\t No Access Granted! try Again");
+                        }
+                        else {
+
+                            System.out.println("Admin User Granted\n\n\nEnter an option :\n1: View All Complains\n2: Search a complaint by ID\n3: clo

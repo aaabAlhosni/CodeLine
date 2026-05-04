@@ -203,4 +203,16 @@ public class CilErp {
                                         System.out.println("Closing complain *******");
                                         //changing the status from open to close
                                         complainStatus.replace(closingComplain, "Closed");
-                                        System.out.printf("Sucessfully!\nclosed the complain: #[%s]\ncomplain status changed to >>>>>>>>>> %s\n", complains.get(searchComplainIndex), complainStatus.get(searchComplainInde
+                                        System.out.printf("Sucessfully!\nclosed the complain: #[%s]\ncomplain status changed to >>>>>>>>>> %s\n", complains.get(searchComplainIndex), complainStatus.get(searchComplainIndex));
+                                        }
+                                    }
+
+                                    else {
+
+                                        System.out.println("Try again, please enter Valid input example : 1,2,3,...,5");
+                                    }
+                                }
+
+
+                                //extending
+  

@@ -297,4 +297,9 @@ public class CilErp {
                         if (scannerBuffer.hasNextInt()) {
 
                             int staffMenu = Integer.parseInt(scannerBuffer.nextLine());
-   
+                            if (staffMenu == 1) {
+                                System.out.println("===== My Assigned Complains =====");
+                                for (int loop = 0; loop < staff.size(); loop++) {
+                                    // Check if the name matches (ignoring case is usually better)
+
+                                    if (staff.get(loo

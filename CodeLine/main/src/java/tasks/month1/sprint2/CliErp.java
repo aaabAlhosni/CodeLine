@@ -73,4 +73,9 @@ public class CilErp {
                                     complainsProiorty.add(proiorty[1]);
                                     //adding complain status
                                     complainStatus.put(complainIndex, "Open");
-     
+                                    System.out.println("Successfully added");
+
+                                    //Displaying complains
+                                    int currentComplain = complains.indexOf(complainIndex);
+                                    System.out.printf("Complain ID: #[%s]\n", complains.get(currentComplain));
+                                   

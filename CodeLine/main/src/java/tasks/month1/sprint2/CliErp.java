@@ -347,4 +347,13 @@ public class CilErp {
 //
 //
 //                                System.out.print("Enter the new comment: ");
-//                                Stri
+//                                String newComment = scannerBuffer.nextLine();
+//
+//
+//                                comment.set(searchcomment, newComment);
+//
+//                                System.out.println("Update successful for " + staff.get(searchcomment) + "!");
+//
+//                            }
+//                            else {
+//                                System.out.println("ID not 

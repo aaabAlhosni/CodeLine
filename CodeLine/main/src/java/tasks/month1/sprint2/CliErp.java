@@ -339,4 +339,12 @@ public class CilErp {
                             } else if (staffMenu == 3) {
                                 System.out.println("===== Close Complains ======");
                                 System.out.print("Enter Complaint ID:\n");
-                 
+                                int searchCloseComplain = Integer.parseInt(scannerBuffer.nextLine());
+
+//                            if (.equals(searchId)) {
+//
+//                                System.out.println("Current Comment: " + comment.get(searchcomment));
+//
+//
+//                                System.out.print("Enter the new comment: ");
+//                                Stri

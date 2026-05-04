@@ -27,4 +27,13 @@ public class CilErp {
         while (menuIsRunning == true) {
 //  Menu
             System.out.println("============ Wellcome - Main Menu =============");
-            System.out.println("Please choose an
+            System.out.println("Please choose an option");
+            System.out.println("1. Customer");
+            System.out.println("2. Admin");
+            System.out.println("3. Support Staff");
+            System.out.println("4. Exit");
+            System.out.println("*==================================*      ");
+
+
+//  menu Options
+//===========================================================================

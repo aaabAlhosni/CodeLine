@@ -97,4 +97,8 @@ public class CilErp {
                                         if (chooseProiorty.equals("low") || chooseProiorty.equals("LOW")) {
                                             complainsProiorty.add(proiorty[0]);
                                         } else if (chooseProiorty.equals("High") || chooseProiorty.equals("HIGH")) {
-               
+                                            complainsProiorty.add(proiorty[2]);
+                                        } else if (chooseProiorty.equals("medium") || chooseProiorty.equals("Medium")) {
+                                            complainsProiorty.add(proiorty[1]);
+                                        } else {
+                                            System.out.p

@@ -363,4 +363,9 @@ public class CilErp {
                                 if (searchCloseComplain >= complains.size() || searchCloseComplain < 0) {
                                     System.out.println("Current Status: " + complainStatus.get(searchCloseComplain));
 
-                                    if (complainStatus.containsKey(searchCloseComplain) && co
+                                    if (complainStatus.containsKey(searchCloseComplain) && complainStatus.containsValue("closed")) {
+                                        System.out.println("Sorry cannot change already closed complain");
+
+                                    } else {
+                                        complainStatus.replace(searchCloseComplain, "closed");
+                                        System.out.println("Sucessfully closed comp

@@ -13,3 +13,8 @@ public class pyramidPowerTheStarMountain {
 
                 System.out.print("*");
             }
+            System.out.println();
+        }
+//==================================================================
+    }
+}

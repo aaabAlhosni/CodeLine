@@ -9,3 +9,7 @@ public class pyramidPowerTheStarMountain {
             for (int j = i ; j <= NumberOfRows - 1; j++ ) {
                 System.out.print(" ");
             }
+            for (int NumStar = 1 ; NumStar <= 2 * i - 1 ; NumStar++ ){
+
+                System.out.print("*");
+            }

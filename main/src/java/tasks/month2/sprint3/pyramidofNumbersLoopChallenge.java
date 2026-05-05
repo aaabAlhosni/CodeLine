@@ -7,3 +7,8 @@ public class pyramidofNumbersLoopChallenge {
 //===============================================================
         System.out.println();
         System.out.println("Pyramid of Numbers: Loop Challenge");
+        for (int i = 0 ; i <= numOfrows ; i++){
+            for (int j = 1; j<= i; j++){
+                System.out.print(j);
+
+            }

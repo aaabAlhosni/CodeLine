@@ -12,3 +12,7 @@ public class pyramidofNumbersLoopChallenge {
                 System.out.print(j);
 
             }
+            for (int c = i -1 ; c>= 1 ; c--){
+                System.out.print(c);
+
+            }

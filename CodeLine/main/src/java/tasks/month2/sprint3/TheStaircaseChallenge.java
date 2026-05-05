@@ -6,3 +6,5 @@ public class TheStaircaseChallenge {
         int rowsExample = 5;
         //============================================================
         System.out.println("Step Up: The Staircase Challenge");
+
+        for (int rows = 0; rows <= rowsExample; rows++){

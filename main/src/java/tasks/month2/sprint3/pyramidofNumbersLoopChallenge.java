@@ -16,3 +16,7 @@ public class pyramidofNumbersLoopChallenge {
                 System.out.print(c);
 
             }
+            System.out.println();
+        }
+    }
+}

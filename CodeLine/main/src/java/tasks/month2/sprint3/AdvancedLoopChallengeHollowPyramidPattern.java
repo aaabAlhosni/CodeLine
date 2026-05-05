@@ -11,3 +11,20 @@ public class AdvancedLoopChallengeHollowPyramidPattern {
             for (int j = i - 1  ; j < numOfRows; j++ ){
                 System.out.print(" ");
             }
+
+
+            for (int x = 1 ; x <=(2 * i -1) ; x++) {
+
+                // Seprating the middle part of pyramid
+                if (x==1 || x == (2 * i -1) || i==numOfRows  ){
+                    System.out.print("*");
+                }
+                else {
+                    System.out.print(" ");
+                }
+
+            }
+            System.out.println();
+        }
+    }
+}

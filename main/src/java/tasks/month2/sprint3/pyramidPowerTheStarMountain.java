@@ -5,3 +5,7 @@ public class pyramidPowerTheStarMountain {
 
         int NumberOfRows = 5;
 //=================================================================
+        for (int i = 1 ; i <= NumberOfRows ; i++){
+            for (int j = i ; j <= NumberOfRows - 1; j++ ) {
+                System.out.print(" ");
+            }

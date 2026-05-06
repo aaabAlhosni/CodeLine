@@ -136,6 +136,16 @@ public class EscapingMaze {
             boolean foundNeighbour = false;
 
             for (int d = 0; d < 4; d++) {
+
+                int nextRow = startrow + dRow[d];           // neighbour row
+                int nextColumn = startColumn + dCol[d];           // neighbour col
+
+                // move only if inside bounds AND open path '0' or exit 'E' AND not visited
+                if (nextRow >= 0 && nextRow < rows &&
+                        nextColumn >= 0 && nextColumn < cols &&
+                        !visited[nextRow][nextColumn] &&
+                        (array2d[nextRow][nextColumn] == '0' || array2d[nextRow][nextColumn] == 'E')) {
+                }
             }
         }
     }

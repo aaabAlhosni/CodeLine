@@ -23,6 +23,8 @@ public class EscapingMaze {
 
         try {
             String fileContent = Files.readString(mazePath);
+            String[] linesOfFile = fileContent.split("\n");
+            int lineLength = linesOfFile[0].length();
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

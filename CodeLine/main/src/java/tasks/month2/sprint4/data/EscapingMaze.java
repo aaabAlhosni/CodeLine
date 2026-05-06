@@ -107,6 +107,12 @@ public class EscapingMaze {
                 startColumn, startrow);                 // print as (x,y) → (col,row)
 
         boolean solved = false;
+
+        // ─────────────────────────────────────────
+        // STEP 5 — SEEK A PATH (STACK LOOP)
+        // ─────────────────────────────────────────
+        while (!stack.isEmpty()) {                       // keep going while paths remain
+        }
     }
 
     public static void printMaze(char[][] maze, int rows, int cols) {

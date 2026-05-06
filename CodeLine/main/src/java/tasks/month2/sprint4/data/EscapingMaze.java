@@ -27,6 +27,14 @@ public class EscapingMaze {
             int lineLength = linesOfFile[0].length();
 
             array2d = new char[linesOfFile.length][lineLength];  // Load it in 2D Array or Array of Arrays
+
+            for (int row = 0; row < linesOfFile.length; row++) {
+                char[] currRow = linesOfFile[row].toCharArray();
+                // System.out.printf("%s\n", linesOfFile[row]);
+
+                for (int col = 0; col < currRow.length; col++) {
+                }
+            }
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

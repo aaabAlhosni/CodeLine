@@ -155,6 +155,15 @@ public class EscapingMaze {
                             nextColumn, nextRow);                     // print as (x,y)  (col,row)
                 }
             }
+
+            // if no neighbours found ,then dead end, backtrack via stack automatically
+            if (!foundNeighbour && !stack.isEmpty()) {
+                int[] backtrack = stack.peek();          // peek at where we backtrack to
+                System.out.printf("dead end — backtracking to (%d,%d)\n",
+                        backtrack[1], backtrack[0]);     // print backtrack position
+            }
+            printspaces();
+            delayTime(3);
         }
     }
 

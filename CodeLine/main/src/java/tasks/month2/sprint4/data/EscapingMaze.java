@@ -73,6 +73,11 @@ public class EscapingMaze {
                 }
             }
         }
+
+        //handle error
+        if (startrow == -1 || exitRow == -1) {
+            System.out.println("Error: maze must have '@' and 'E'");
+        }
     }
 
     public static void printMaze(char[][] maze, int rows, int cols) {

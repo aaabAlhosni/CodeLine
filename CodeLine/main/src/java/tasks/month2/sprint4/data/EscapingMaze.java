@@ -123,6 +123,14 @@ public class EscapingMaze {
                 solved = true;                           // maze is solved!
                 break;
             }
+
+            // print the maze with '@' at the current position
+            char previousChar = array2d[startrow][startColumn];   // save original char ('0')
+            array2d[startrow][startColumn] = '@';                  // place '@' at current cell
+            printMaze(array2d, rows, cols);                        // print the snapshot
+            array2d[startrow][startColumn] = previousChar;         // restore original char
+            delayTime(1);
+            printspaces();
         }
     }
 

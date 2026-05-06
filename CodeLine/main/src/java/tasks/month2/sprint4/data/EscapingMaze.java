@@ -63,6 +63,14 @@ public class EscapingMaze {
 
         for (int row = 0; row < array2d.length; row++) {
             for (int col = 0; col < array2d[row].length; col++) {
+                if (array2d[row][col] == '@') {
+                    startrow = row;                 // found start row
+                    startColumn = col;                 // found start col
+                }
+                if (array2d[row][col] == 'E') {
+                    exitRow = row;                  // found exit row
+                    exitcolum = col;                  // found exit col
+                }
             }
         }
     }

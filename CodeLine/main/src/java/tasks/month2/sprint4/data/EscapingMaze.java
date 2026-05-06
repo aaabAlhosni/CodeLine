@@ -145,6 +145,14 @@ public class EscapingMaze {
                         nextColumn >= 0 && nextColumn < cols &&
                         !visited[nextRow][nextColumn] &&
                         (array2d[nextRow][nextColumn] == '0' || array2d[nextRow][nextColumn] == 'E')) {
+
+                    visited[nextRow][nextColumn] = true;              // mark neighbour as visited
+                    stack.push(new int[]{nextRow, nextColumn});        // push neighbour onto stack
+                    track.add(new int[]{nextRow, nextColumn});         // record this move in track log
+                    foundNeighbour = true;
+
+                    System.out.printf(" (%d,%d) current position\n",
+                            nextColumn, nextRow);                     // print as (x,y)  (col,row)
                 }
             }
         }

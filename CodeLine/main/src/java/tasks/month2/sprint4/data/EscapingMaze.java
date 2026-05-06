@@ -1,8 +1,11 @@
 package tasks.month2.sprint4.data;
 
 import java.io.IOException;
+import java.net.URISyntaxException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.ArrayList;
+import java.util.Stack;
 
 public class EscapingMaze {
     public static void main(String[] args) {

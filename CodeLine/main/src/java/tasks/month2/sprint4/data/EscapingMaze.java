@@ -39,6 +39,16 @@ public class EscapingMaze {
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
+
+        int rows = array2d.length;                                     // total rows of the maze
+        int cols = array2d[0].length;
+
+        for (int row = 0; row < 10; row++) {
+            for (int col = 0; col < 10; col++) {
+                System.out.printf("%c ", array2d[row][col]);
+            }
+            System.out.println();
+        }
     }
 
     public static void printMaze(char[][] maze, int rows, int cols) {

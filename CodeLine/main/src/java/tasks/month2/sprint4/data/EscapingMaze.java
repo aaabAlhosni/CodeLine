@@ -1,5 +1,7 @@
 package tasks.month2.sprint4.data;
 
+
+
 import java.io.IOException;
 import java.net.URISyntaxException;
 import java.nio.file.Files;
@@ -9,6 +11,7 @@ import java.util.Stack;
 
 public class EscapingMaze {
     public static void main(String[] args) {
+
         // ─────────────────────────────────────────────────
         // STEP 1 — LOAD & SHOW MAZE.TXT IN 2D ARRAY .
         // ─────────────────────────────────────────────────
@@ -165,14 +168,62 @@ public class EscapingMaze {
             printspaces();
             delayTime(3);
         }
+
+        // ─────────────────────────────────────────
+        // STEP 6 — PRINT RESULT
+        // ─────────────────────────────────────────
+
+        for (int[] cell : track) {
+            int r = cell[0];
+            int c = cell[1];
+            if (array2d[r][c] != '@' && array2d[r][c] != 'E') {
+                array2d[r][c] = 'X';
+            }
+        }
+
+        if (solved) {
+            System.out.println("=== Maze solved ===");
+        } else {
+            System.out.println("=== No path found ===");
+        }
+
+        printspaces();
+
+        for (int row = 0; row < rows; row++) {
+            for (int col = 0; col < cols; col++) {
+                System.out.printf("%c ", array2d[row][col]);
+            }
+            System.out.println();
+        }
+
     }
 
+    // ────────────────────────────────────────────────────────────────
+    //  EXTERNAL FUNCTIONS — time delay - making spaces - printing maze
+    // ────────────────────────────────────────────────────────────────
     public static void printMaze(char[][] maze, int rows, int cols) {
+        for (int row = 0; row < rows; row++) {
+            for (int col = 0; col < cols; col++) {
+                System.out.printf("%c ", maze[row][col]);
+            }
+            System.out.println();
+        }
     }
 
     public static void printspaces(){
+        int spaces = 3;
+        for (int spacePrint=0; spacePrint<spaces;spacePrint++){
+            System.out.println();
+        }
     }
 
+
     public static void delayTime(long seconds){
+        try {
+            Thread.sleep(seconds * 1000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
     }
 }

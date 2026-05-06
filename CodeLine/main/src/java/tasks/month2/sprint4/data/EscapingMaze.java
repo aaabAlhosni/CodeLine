@@ -90,6 +90,10 @@ public class EscapingMaze {
 
         // visited point: true, false
         boolean[][] visited = new boolean[rows][cols];
+
+        // directions: Left, Right, Up, Down  (in that search order)
+        int[] dRow = {0, 0, 1, -1};             // row directions
+        int[] dCol = {1, -1, 0, 0};             // col directions
     }
 
     public static void printMaze(char[][] maze, int rows, int cols) {

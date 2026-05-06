@@ -131,6 +131,12 @@ public class EscapingMaze {
             array2d[startrow][startColumn] = previousChar;         // restore original char
             delayTime(1);
             printspaces();
+
+            // seek: try Left, Right, Up, Down from current position
+            boolean foundNeighbour = false;
+
+            for (int d = 0; d < 4; d++) {
+            }
         }
     }
 

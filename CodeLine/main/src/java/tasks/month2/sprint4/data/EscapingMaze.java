@@ -20,6 +20,12 @@ public class EscapingMaze {
         } catch (URISyntaxException e) {
             throw new RuntimeException(e);
         }
+
+        try {
+            String fileContent = Files.readString(mazePath);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public static void printMaze(char[][] maze, int rows, int cols) {

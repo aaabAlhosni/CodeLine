@@ -101,6 +101,12 @@ public class EscapingMaze {
         stack.push(new int[]{startrow, startColumn});  // push '@' position onto stack
         visited[startrow][startColumn] = true;          // mark start as visited
         track.add(new int[]{startrow, startColumn});    // record start in track log
+
+        System.out.println("start solving\n");
+        System.out.printf("maze - (%d,%d) current position\n",
+                startColumn, startrow);                 // print as (x,y) → (col,row)
+
+        boolean solved = false;
     }
 
     public static void printMaze(char[][] maze, int rows, int cols) {

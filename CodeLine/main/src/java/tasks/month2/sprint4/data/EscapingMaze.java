@@ -87,6 +87,9 @@ public class EscapingMaze {
         // each push or pop will be like {row, col}
         Stack<int[]> stack = new Stack<>();
         ArrayList<int[]> track = new ArrayList<>();
+
+        // visited point: true, false
+        boolean[][] visited = new boolean[rows][cols];
     }
 
     public static void printMaze(char[][] maze, int rows, int cols) {

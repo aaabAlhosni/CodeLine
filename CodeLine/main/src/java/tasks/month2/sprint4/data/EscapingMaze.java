@@ -115,6 +115,14 @@ public class EscapingMaze {
             int[] current = stack.pop();                 // pop top this is our current position
             startrow = current[0];                     // update current row
             startColumn = current[1];                     // update current col
+
+
+
+            // check if we reached the exit 'E'
+            if (startrow == exitRow && startColumn == exitcolum) {
+                solved = true;                           // maze is solved!
+                break;
+            }
         }
     }
 

@@ -25,6 +25,8 @@ public class EscapingMaze {
             String fileContent = Files.readString(mazePath);
             String[] linesOfFile = fileContent.split("\n");
             int lineLength = linesOfFile[0].length();
+
+            array2d = new char[linesOfFile.length][lineLength];  // Load it in 2D Array or Array of Arrays
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

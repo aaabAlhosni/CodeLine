@@ -94,6 +94,13 @@ public class EscapingMaze {
         // directions: Left, Right, Up, Down  (in that search order)
         int[] dRow = {0, 0, 1, -1};             // row directions
         int[] dCol = {1, -1, 0, 0};             // col directions
+
+        // ─────────────────────────────────────────
+        // STEP 4 — PUSH START AND UPDATE CURRENT POSITION
+        // ─────────────────────────────────────────
+        stack.push(new int[]{startrow, startColumn});  // push '@' position onto stack
+        visited[startrow][startColumn] = true;          // mark start as visited
+        track.add(new int[]{startrow, startColumn});    // record start in track log
     }
 
     public static void printMaze(char[][] maze, int rows, int cols) {

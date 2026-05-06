@@ -14,6 +14,12 @@ public class EscapingMaze {
         // ─────────────────────────────────────────────────
         Path mazePath = null;
         char array2d[][] = null;
+
+        try {
+            mazePath = Path.of(EscapingMaze.class.getResource("./data/maze.txt").toURI());
+        } catch (URISyntaxException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     public static void printMaze(char[][] maze, int rows, int cols) {

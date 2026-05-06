@@ -49,6 +49,16 @@ public class EscapingMaze {
             }
             System.out.println();
         }
+
+
+        // ─────────────────────────────────────────
+        // STEP 2 — DECLARE START/END POSITION .
+        // ─────────────────────────────────────────
+        int startrow = 0;
+        int startColumn = 0;    //start
+
+        int exitRow = 0;
+        int exitcolum = 0;      //exit
     }
 
     public static void printMaze(char[][] maze, int rows, int cols) {

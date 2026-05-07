@@ -153,3 +153,4 @@ public class MazeSolver {
     }
 
     public static void printspaces() {
+        int spaces = 3;

@@ -110,3 +110,5 @@ public class MazeSolver {
                         nextColumn >= 0 && nextColumn < cols &&
                         !visited[nextRow][nextColumn] &&
                         (array2d[nextRow][nextColumn] == '0' || array2d[nextRow][nextColumn] == 'E')) {
+
+                    // Update visited point

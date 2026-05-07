@@ -120,3 +120,4 @@ public class MazeSolver {
                     System.out.printf(" (%d,%d) current position\n",
                             nextColumn, nextRow);                     // print as (x,y)  (col,row)
                 }
+            }

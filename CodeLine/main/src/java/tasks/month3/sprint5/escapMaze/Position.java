@@ -30,3 +30,4 @@ public class Position {
                 if (array2d[row][col] == 'E') {
                     exitRow = row;                  // found exit row
                     exitcolum = col;                  // found exit col
+                }

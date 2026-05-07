@@ -64,3 +64,4 @@ public class MazeSolver {
         visited = new boolean[rows][cols];
 
         // -----------------------------------------------
+        // STEP 4 — PUSH START AND UPDATE CURRENT POSITION

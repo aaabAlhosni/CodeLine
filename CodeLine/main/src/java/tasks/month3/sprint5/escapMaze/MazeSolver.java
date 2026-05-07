@@ -12,3 +12,4 @@ public class MazeSolver {
     //-------------------------------------------------
     //oop import some varriables from other classes.
     private char[][] array2d = MazeLoader.getArray2d();
+    private int startrow = Position.getStartRow();

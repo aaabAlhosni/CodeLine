@@ -35,3 +35,5 @@ public class Pick3Easiest {
 
             for (int i = 0 ;i < split.length; i++ ){
                 numbers[i] = Integer.parseInt(split[i].trim());
+                dataset.add(numbers[i]);
+            }

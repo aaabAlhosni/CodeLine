@@ -91,3 +91,4 @@ public class MazeSolver {
 
             // print the maze with '@' at the current position
             char previousChar = array2d[startrow][startColumn];   // save original char ('0')
+            array2d[startrow][startColumn] = '@';                  // place '@' at current cell

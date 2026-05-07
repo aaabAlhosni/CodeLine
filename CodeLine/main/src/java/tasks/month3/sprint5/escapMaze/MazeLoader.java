@@ -24,3 +24,5 @@ public class MazeLoader {
             String fileContent = Files.readString(mazePath);
             String[] linesOfFile = fileContent.split("\\r?\\n");
             int lineLength = linesOfFile[0].length();
+
+            array2d = new char[linesOfFile.length][lineLength];  // Load it in 2D Array or Array of Arrays

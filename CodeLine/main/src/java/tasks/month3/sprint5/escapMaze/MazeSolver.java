@@ -82,3 +82,5 @@ public class MazeSolver {
             int[] current = stack.pop();                 // pop top this is our current position
             startrow = current[0];                     // update current row
             startColumn = current[1];                     // update current col
+
+            // check if we reached the exit 'E'

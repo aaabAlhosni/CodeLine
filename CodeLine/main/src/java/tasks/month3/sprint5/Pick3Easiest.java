@@ -100,3 +100,6 @@ public class Pick3Easiest {
                     dataset.set(j+1, temp);
                 }
             }
+        }
+
+    }

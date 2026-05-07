@@ -147,3 +147,4 @@ public class MazeSolver {
         for (int row = 0; row < rows; row++) {
             for (int col = 0; col < cols; col++) {
                 System.out.printf("%c ", maze[row][col]);
+            }

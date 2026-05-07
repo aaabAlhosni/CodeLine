@@ -74,3 +74,5 @@ public class MazeSolver {
                 startColumn, startrow);                 // print as (x,y) == (col,row)
 
     }
+    // -----------------------------------------------------
+    // STEP 5 — SEEK A PATH (STACK LOOP)

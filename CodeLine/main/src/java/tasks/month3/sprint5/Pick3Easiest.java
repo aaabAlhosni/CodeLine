@@ -58,3 +58,6 @@ public class Pick3Easiest {
 
         //Print: after sorting
         System.out.printf("After %s: %s\n",method,dataset);
+        //print 3 lowest priority
+        int[] low3Prior = new int[]{dataset.get(0),dataset.get(1), dataset.get(2) };
+        System.out.println("three lowest priority are " + Arrays.toString(low3Prior));

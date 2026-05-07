@@ -29,3 +29,6 @@ public class Pick3Easiest {
             //split the complains List {6,8,10,3,43,2}
 
             String[] split = args[1].split(",");
+
+            //convert them to int
+            numbers = new int[split.length];

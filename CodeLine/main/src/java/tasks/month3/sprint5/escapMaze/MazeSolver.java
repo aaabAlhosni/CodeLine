@@ -162,3 +162,4 @@ public class MazeSolver {
 
     public static void delayTime(long seconds) {
         try {
+            Thread.sleep(seconds * 1000);

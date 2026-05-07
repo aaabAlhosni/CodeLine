@@ -46,3 +46,4 @@ public class MazeRender {
 //            System.out.println(newGame.getTrackedPath().toString());
 
             System.out.print("Path taken: ");
+            for (int[] positions : newGame.getTrackedPath()) {

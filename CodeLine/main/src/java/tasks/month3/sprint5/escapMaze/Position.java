@@ -57,3 +57,4 @@ public class Position {
 
     public static int getExitcolum(){
         return exitcolum;
+    }

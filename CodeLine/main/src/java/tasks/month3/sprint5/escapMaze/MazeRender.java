@@ -84,3 +84,4 @@ public class MazeRender {
             throw new RuntimeException(e);
         }
     }
+}

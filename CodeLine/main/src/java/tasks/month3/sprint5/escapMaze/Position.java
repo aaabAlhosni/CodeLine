@@ -17,3 +17,4 @@ public class Position {
     private static int startColumn = 0;    //start
 
     private static int exitRow = 0;
+    private static int exitcolum = 0;      //exit

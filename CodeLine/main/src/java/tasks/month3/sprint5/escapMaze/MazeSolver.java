@@ -10,3 +10,5 @@ public class MazeSolver {
 //    Position positions = new Position();
 
     //-------------------------------------------------
+    //oop import some varriables from other classes.
+    private char[][] array2d = MazeLoader.getArray2d();

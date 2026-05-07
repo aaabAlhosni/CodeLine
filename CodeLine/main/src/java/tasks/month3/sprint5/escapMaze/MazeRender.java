@@ -32,3 +32,4 @@ public class MazeRender {
         // Solve the maze
         System.out.println("=================== Looking in the MAZE ===================");
         MazeSolver newGame = new MazeSolver();
+        newGame.startMaze();

@@ -34,3 +34,4 @@ public class MazeRender {
         MazeSolver newGame = new MazeSolver();
         newGame.startMaze();
         newGame.solveMaze();        //object elemnt
+        solved = newGame.isMazeSolved();        //object elemnt

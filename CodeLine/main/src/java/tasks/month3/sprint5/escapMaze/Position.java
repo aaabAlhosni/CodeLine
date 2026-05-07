@@ -54,3 +54,5 @@ public class Position {
     public static int getExitRow(){
         return exitRow;
     }
+
+    public static int getExitcolum(){

@@ -84,3 +84,4 @@ public class MazeSolver {
             startColumn = current[1];                     // update current col
 
             // check if we reached the exit 'E'
+            if (startrow == exitRow && startColumn == exitcolum) {

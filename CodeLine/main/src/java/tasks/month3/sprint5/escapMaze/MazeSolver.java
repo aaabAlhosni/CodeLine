@@ -98,3 +98,4 @@ public class MazeSolver {
             printspaces();
 
             // seek: try Left, Right, Up, Down from current position
+            boolean foundNeighbour = false;

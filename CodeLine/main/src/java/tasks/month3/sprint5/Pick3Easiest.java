@@ -63,3 +63,6 @@ public class Pick3Easiest {
         System.out.println("three lowest priority are " + Arrays.toString(low3Prior));
 
     }
+
+    public static void SelectionSort(ArrayList<Integer> dataset){
+        int size;

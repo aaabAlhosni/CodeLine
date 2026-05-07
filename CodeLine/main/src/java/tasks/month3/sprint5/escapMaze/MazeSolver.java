@@ -135,3 +135,4 @@ public class MazeSolver {
                 int c = cell[1];
                 if (array2d[r][c] != '@' && array2d[r][c] != 'E') {
                     array2d[r][c] = 'X';
+                }

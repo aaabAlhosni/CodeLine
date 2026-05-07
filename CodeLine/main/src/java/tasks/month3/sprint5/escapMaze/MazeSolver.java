@@ -78,3 +78,4 @@ public class MazeSolver {
     // STEP 5 — SEEK A PATH (STACK LOOP)
     public void solveMaze() {
          solved = false;
+        while (!stack.isEmpty()) {                       // keep going while paths remain

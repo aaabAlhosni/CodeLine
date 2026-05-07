@@ -76,3 +76,4 @@ public class Pick3Easiest {
                 {
                     minimum = j;
                 }
+            }

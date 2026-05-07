@@ -37,3 +37,4 @@ public class MazeRender {
         solved = newGame.isMazeSolved();        //object elemnt
 
         printMaze(array2d, rows, cols);    //external method
+        delayTime(0);       //extrenal method

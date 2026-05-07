@@ -9,3 +9,5 @@ public class MazeRender {
         // oop attributes
         int rows = array2d.length;
         int cols = array2d[0].length;
+
+        boolean solved;

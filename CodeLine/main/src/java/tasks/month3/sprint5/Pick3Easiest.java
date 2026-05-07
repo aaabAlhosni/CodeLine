@@ -21,3 +21,6 @@ public class Pick3Easiest {
         ArrayList<Integer> dataset =  new ArrayList<Integer>();
         String method = "";
         int[] numbers;
+
+        try {
+            //taking input

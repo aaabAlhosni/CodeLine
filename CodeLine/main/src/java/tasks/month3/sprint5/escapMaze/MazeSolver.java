@@ -23,3 +23,4 @@ public class MazeSolver {
     ArrayList<int[]> track = new ArrayList<>();
 
     private int rows = array2d.length;
+    private int cols = array2d[0].length;

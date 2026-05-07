@@ -6,3 +6,5 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 
 public class MazeLoader {
+
+    private static Path mazePath = null;

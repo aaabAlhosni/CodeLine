@@ -27,3 +27,4 @@ public class Position {
                     startrow = row;                 // found start row
                     startColumn = col;                 // found start col
                 }
+                if (array2d[row][col] == 'E') {

@@ -59,3 +59,5 @@ public class MazeSolver {
 //        public int[] startposition(){
 //            int startrow
 //        }
+
+        // Update visited point

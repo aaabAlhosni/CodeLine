@@ -16,3 +16,5 @@ public class MazeRender {
             System.out.println("Error: Failed to load maze.");
             return;
         }
+
+//        // Find start '@' and exit 'E'

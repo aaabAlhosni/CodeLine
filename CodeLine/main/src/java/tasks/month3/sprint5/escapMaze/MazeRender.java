@@ -41,3 +41,4 @@ public class MazeRender {
 
 
         if (solved == true) {
+            System.out.println("\n===========================================");

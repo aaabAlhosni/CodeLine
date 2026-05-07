@@ -18,3 +18,5 @@ public class Position {
 
     private static int exitRow = 0;
     private static int exitcolum = 0;      //exit
+
+    public static void getStartExitPosition(){

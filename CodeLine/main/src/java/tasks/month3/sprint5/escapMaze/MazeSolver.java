@@ -109,3 +109,4 @@ public class MazeSolver {
                 if (nextRow >= 0 && nextRow < rows &&
                         nextColumn >= 0 && nextColumn < cols &&
                         !visited[nextRow][nextColumn] &&
+                        (array2d[nextRow][nextColumn] == '0' || array2d[nextRow][nextColumn] == 'E')) {

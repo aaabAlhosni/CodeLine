@@ -118,3 +118,4 @@ public class MazeSolver {
                     foundNeighbour = true;
 
                     System.out.printf(" (%d,%d) current position\n",
+                            nextColumn, nextRow);                     // print as (x,y)  (col,row)

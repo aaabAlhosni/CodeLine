@@ -24,3 +24,4 @@ public class Pick3Easiest {
 
         try {
             //taking input
+            method = args[0].toLowerCase().trim();

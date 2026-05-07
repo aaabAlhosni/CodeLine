@@ -23,3 +23,4 @@ public class MazeLoader {
         try {
             String fileContent = Files.readString(mazePath);
             String[] linesOfFile = fileContent.split("\\r?\\n");
+            int lineLength = linesOfFile[0].length();

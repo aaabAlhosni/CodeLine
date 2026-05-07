@@ -81,3 +81,5 @@ public class Pick3Easiest {
             //Swapping elements: after finding the minimum now implement it on arraylist
             int temp = dataset.get(minimum);
             dataset.set(minimum, dataset.get(i));
+            dataset.set(i, temp);
+        }

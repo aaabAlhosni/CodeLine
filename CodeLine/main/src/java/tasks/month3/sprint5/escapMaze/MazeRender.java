@@ -62,3 +62,4 @@ public class MazeRender {
     //  EXTERNAL FUNCTIONS — time delay - making spaces - printing maze
     // ────────────────────────────────────────────────────────────────
     public static void printMaze(char[][] maze, int rows, int cols) {
+        for (int row = 0; row < rows; row++) {

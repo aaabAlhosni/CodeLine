@@ -32,3 +32,4 @@ public class MazeLoader {
                 // System.out.printf("%s\n", linesOfFile[row]);
 
                 for (int col = 0; col < currRow.length; col++) {
+                    array2d[row][col] = currRow[col];

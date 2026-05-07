@@ -40,3 +40,4 @@ public class MazeLoader {
             throw new RuntimeException(e);
         }
         return array2d;
+    }

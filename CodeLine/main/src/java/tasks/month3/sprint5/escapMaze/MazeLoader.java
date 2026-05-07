@@ -36,3 +36,4 @@ public class MazeLoader {
                 }
             }
         } catch (
+                IOException e) {

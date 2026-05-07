@@ -150,3 +150,4 @@ public class MazeSolver {
             }
             System.out.println();
         }
+    }

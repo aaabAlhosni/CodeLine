@@ -7,3 +7,4 @@ import java.util.Arrays;
 
 
 public class Pick3Easiest {
+    public static void main(String[] args) {

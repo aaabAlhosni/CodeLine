@@ -112,3 +112,4 @@ public class MazeSolver {
                         (array2d[nextRow][nextColumn] == '0' || array2d[nextRow][nextColumn] == 'E')) {
 
                     // Update visited point
+                    visited[nextRow][nextColumn] = true;              // mark neighbour as visited

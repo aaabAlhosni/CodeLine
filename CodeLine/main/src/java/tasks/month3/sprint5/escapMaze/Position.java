@@ -37,3 +37,5 @@ public class Position {
         //handle error
         if (startrow == -1 || exitRow == -1) {
             System.out.println("Error: maze must have '@' and 'E'");
+
+        }

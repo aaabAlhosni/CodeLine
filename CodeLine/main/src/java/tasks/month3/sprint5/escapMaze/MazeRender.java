@@ -25,3 +25,5 @@ public class MazeRender {
 //            System.out.println("Error: Could not find start '@' or exit 'E' in maze.");
 //            return;
 //        }
+
+        // Scan that array for '@' and 'E'

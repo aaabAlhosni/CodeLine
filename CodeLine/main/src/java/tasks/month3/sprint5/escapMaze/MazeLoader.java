@@ -43,3 +43,4 @@ public class MazeLoader {
     }
 
     //---------------------------------------
+    // oop methods to reuse varraibles in other classes

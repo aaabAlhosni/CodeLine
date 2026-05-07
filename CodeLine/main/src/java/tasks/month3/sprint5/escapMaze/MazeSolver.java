@@ -40,3 +40,4 @@ public class MazeSolver {
     public void startMaze() {
 
         //error handling
+        if (array2d == null) {

@@ -79,3 +79,4 @@ public class MazeRender {
 
     public static void delayTime(long seconds) {
         try {
+            Thread.sleep(seconds * 1000);

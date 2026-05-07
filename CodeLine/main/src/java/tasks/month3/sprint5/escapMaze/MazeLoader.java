@@ -41,3 +41,5 @@ public class MazeLoader {
         }
         return array2d;
     }
+
+    //---------------------------------------

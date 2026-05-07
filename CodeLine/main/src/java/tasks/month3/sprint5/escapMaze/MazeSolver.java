@@ -34,3 +34,5 @@ public class MazeSolver {
 
     //is the maze solved: true , false
     private boolean solved = false;
+
+    //-------------------------------------------------

@@ -103,3 +103,4 @@ public class MazeSolver {
             for (int d = 0; d < 4; d++) {
 
                 int nextRow = startrow + dRow[d];           // neighbour row
+                int nextColumn = startColumn + dCol[d];           // neighbour col

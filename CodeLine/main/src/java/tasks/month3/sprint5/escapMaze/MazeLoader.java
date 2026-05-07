@@ -15,3 +15,4 @@ public class MazeLoader {
     public static char[][] loadMaze(){
         try {
             mazePath = Path.of(MazeLoader.class.getResource("./maze.txt").toURI());
+        } catch (

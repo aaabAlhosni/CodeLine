@@ -11,3 +11,5 @@ public class MazeRender {
         int cols = array2d[0].length;
 
         boolean solved;
+
+        if (array2d == null) {

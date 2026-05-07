@@ -82,3 +82,4 @@ public class MazeRender {
             Thread.sleep(seconds * 1000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
+        }

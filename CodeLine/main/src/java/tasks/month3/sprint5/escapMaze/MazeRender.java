@@ -30,3 +30,4 @@ public class MazeRender {
         Position.getStartExitPosition();
 
         // Solve the maze
+        System.out.println("=================== Looking in the MAZE ===================");

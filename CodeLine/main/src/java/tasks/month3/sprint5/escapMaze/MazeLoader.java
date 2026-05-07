@@ -55,3 +55,6 @@ public class MazeLoader {
 
 
 //        int rows = array2d.length;                                     // total rows of the maze
+//        int cols = array2d[0].length;
+//
+//        for (int row = 0; row < 10; row++) {

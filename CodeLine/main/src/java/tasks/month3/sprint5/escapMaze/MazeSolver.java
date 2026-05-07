@@ -115,3 +115,4 @@ public class MazeSolver {
                     visited[nextRow][nextColumn] = true;              // mark neighbour as visited
                     stack.push(new int[]{nextRow, nextColumn});        // push neighbour onto stack
                     track.add(new int[]{nextRow, nextColumn});         // record this move in track log
+                    foundNeighbour = true;

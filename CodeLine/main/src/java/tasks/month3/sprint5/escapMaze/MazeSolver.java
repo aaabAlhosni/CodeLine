@@ -96,3 +96,5 @@ public class MazeSolver {
             array2d[startrow][startColumn] = previousChar;         // restore original char
             delayTime(1);
             printspaces();
+
+            // seek: try Left, Right, Up, Down from current position

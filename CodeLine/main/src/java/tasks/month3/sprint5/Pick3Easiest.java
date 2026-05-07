@@ -69,3 +69,4 @@ public class Pick3Easiest {
         size = dataset.size();
 
         for (int i = 0 ; i < size - 1 ;i++ ) {
+            int minimum = i;

@@ -20,3 +20,5 @@ public class Position {
     private static int exitcolum = 0;      //exit
 
     public static void getStartExitPosition(){
+
+        for (int row = 0; row < array2d.length; row++) {

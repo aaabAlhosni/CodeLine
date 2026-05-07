@@ -79,3 +79,4 @@ public class MazeSolver {
     public void solveMaze() {
          solved = false;
         while (!stack.isEmpty()) {                       // keep going while paths remain
+            int[] current = stack.pop();                 // pop top this is our current position

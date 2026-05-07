@@ -50,3 +50,5 @@ public class MazeRender {
                 System.out.printf("[%d,%d] ", positions[0], positions[1]);
             }
             System.out.println();
+
+        }

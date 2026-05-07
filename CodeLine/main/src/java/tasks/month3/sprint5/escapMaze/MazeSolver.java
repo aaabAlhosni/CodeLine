@@ -68,3 +68,5 @@ public class MazeSolver {
         stack.push(new int[]{startrow, startColumn});  // push '@' position onto stack
         visited[startrow][startColumn] = true;          // mark start as visited
         track.add(new int[]{startrow, startColumn});    // record start in track log
+
+        System.out.println("start solving\n");

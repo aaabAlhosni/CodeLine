@@ -8,3 +8,4 @@ public class MazeRender {
         char[][] array2d = MazeLoader.getArray2d();
         // oop attributes
         int rows = array2d.length;
+        int cols = array2d[0].length;

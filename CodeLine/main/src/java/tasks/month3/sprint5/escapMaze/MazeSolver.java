@@ -151,3 +151,5 @@ public class MazeSolver {
             System.out.println();
         }
     }
+
+    public static void printspaces() {

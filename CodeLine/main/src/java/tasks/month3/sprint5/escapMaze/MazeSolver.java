@@ -101,3 +101,5 @@ public class MazeSolver {
             boolean foundNeighbour = false;
 
             for (int d = 0; d < 4; d++) {
+
+                int nextRow = startrow + dRow[d];           // neighbour row

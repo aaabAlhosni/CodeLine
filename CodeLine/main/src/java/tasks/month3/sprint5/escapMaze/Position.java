@@ -25,3 +25,4 @@ public class Position {
             for (int col = 0; col < array2d[row].length; col++) {
                 if (array2d[row][col] == '@') {
                     startrow = row;                 // found start row
+                    startColumn = col;                 // found start col

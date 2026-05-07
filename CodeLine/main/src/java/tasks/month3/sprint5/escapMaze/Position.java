@@ -31,3 +31,4 @@ public class Position {
                     exitRow = row;                  // found exit row
                     exitcolum = col;                  // found exit col
                 }
+            }

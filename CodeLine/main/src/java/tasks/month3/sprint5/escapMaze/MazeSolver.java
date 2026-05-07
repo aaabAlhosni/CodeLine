@@ -116,3 +116,5 @@ public class MazeSolver {
                     stack.push(new int[]{nextRow, nextColumn});        // push neighbour onto stack
                     track.add(new int[]{nextRow, nextColumn});         // record this move in track log
                     foundNeighbour = true;
+
+                    System.out.printf(" (%d,%d) current position\n",

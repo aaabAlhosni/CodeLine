@@ -52,3 +52,4 @@ public class MazeRender {
             System.out.println();
 
         }
+        if (!solved) {

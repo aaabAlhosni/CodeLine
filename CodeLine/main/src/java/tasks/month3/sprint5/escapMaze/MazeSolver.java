@@ -121,3 +121,5 @@ public class MazeSolver {
                             nextColumn, nextRow);                     // print as (x,y)  (col,row)
                 }
             }
+
+            // if no neighbours found ,then dead end, backtrack via stack automatically

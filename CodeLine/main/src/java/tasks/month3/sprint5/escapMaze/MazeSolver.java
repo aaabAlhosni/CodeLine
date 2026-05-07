@@ -70,3 +70,4 @@ public class MazeSolver {
         track.add(new int[]{startrow, startColumn});    // record start in track log
 
         System.out.println("start solving\n");
+        System.out.printf("maze - (%d,%d) current position\n",

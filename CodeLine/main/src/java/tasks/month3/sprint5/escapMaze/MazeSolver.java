@@ -107,3 +107,4 @@ public class MazeSolver {
 
                 // move only if inside bounds AND open path '0' or exit 'E' AND not visited
                 if (nextRow >= 0 && nextRow < rows &&
+                        nextColumn >= 0 && nextColumn < cols &&

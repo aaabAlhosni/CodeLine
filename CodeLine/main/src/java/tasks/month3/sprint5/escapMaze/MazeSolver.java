@@ -38,3 +38,5 @@ public class MazeSolver {
     //-------------------------------------------------
     //solving maze
     public void startMaze() {
+
+        //error handling

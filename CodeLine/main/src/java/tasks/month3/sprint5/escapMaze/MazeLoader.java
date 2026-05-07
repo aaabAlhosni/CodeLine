@@ -11,3 +11,4 @@ public class MazeLoader {
     private static char[][] array2d = null;    //oop attributes
 
     //------------------------------------------------------------------------------------
+    // method to Load maze.txt

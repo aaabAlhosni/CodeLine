@@ -18,3 +18,4 @@ public class MazeLoader {
         } catch (
                 URISyntaxException e) {
             throw new RuntimeException(e);
+        }

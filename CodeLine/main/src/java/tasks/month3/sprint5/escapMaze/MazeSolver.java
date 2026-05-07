@@ -24,3 +24,5 @@ public class MazeSolver {
 
     private int rows = array2d.length;
     private int cols = array2d[0].length;
+
+    // directions: Left, Right, Up, Down  (in that search order)

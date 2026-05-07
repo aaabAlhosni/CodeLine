@@ -143,3 +143,4 @@ public class MazeSolver {
     // ────────────────────────────────────────────────────────────────
     //  EXTERNAL FUNCTIONS — time delay - making spaces - printing maze
     // ────────────────────────────────────────────────────────────────
+    public static void printMaze(char[][] maze, int rows, int cols) {

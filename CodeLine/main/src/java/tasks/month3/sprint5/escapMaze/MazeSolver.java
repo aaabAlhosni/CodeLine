@@ -88,3 +88,5 @@ public class MazeSolver {
                 solved = true;
                 // maze is solved!
             }
+
+            // print the maze with '@' at the current position

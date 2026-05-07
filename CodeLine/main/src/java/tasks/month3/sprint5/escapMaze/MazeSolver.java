@@ -21,3 +21,5 @@ public class MazeSolver {
     // each push or pop will be like {row, col}
     Stack<int[]> stack = new Stack<>();
     ArrayList<int[]> track = new ArrayList<>();
+
+    private int rows = array2d.length;

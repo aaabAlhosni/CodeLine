@@ -18,3 +18,6 @@ public class MazeRender {
         }
 
 //        // Find start '@' and exit 'E'
+//        Position position = new Position();     // oop object
+//        int[] positions = position.getStartExitPosition();
+//

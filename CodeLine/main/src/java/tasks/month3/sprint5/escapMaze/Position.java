@@ -39,3 +39,4 @@ public class Position {
             System.out.println("Error: maze must have '@' and 'E'");
 
         }
+    }

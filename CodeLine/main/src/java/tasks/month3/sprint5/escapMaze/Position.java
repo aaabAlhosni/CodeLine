@@ -50,3 +50,5 @@ public class Position {
     public static int getStartColumn(){
         return startColumn;
     }
+
+    public static int getExitRow(){

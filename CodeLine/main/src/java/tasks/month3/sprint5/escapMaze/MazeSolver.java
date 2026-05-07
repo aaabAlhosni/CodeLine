@@ -72,3 +72,5 @@ public class MazeSolver {
         System.out.println("start solving\n");
         System.out.printf("maze - (%d,%d) current position\n",
                 startColumn, startrow);                 // print as (x,y) == (col,row)
+
+    }

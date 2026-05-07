@@ -57,3 +57,5 @@ public class MazeRender {
             System.out.println("\t\t\t No path has been found.");
         }
     }
+
+    // ────────────────────────────────────────────────────────────────

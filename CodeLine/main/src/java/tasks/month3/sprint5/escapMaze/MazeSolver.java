@@ -31,3 +31,5 @@ public class MazeSolver {
 
     // visited point: true, false
     private boolean[][] visited = null;
+
+    //is the maze solved: true , false

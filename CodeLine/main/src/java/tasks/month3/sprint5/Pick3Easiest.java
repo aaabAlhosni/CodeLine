@@ -70,3 +70,5 @@ public class Pick3Easiest {
 
         for (int i = 0 ; i < size - 1 ;i++ ) {
             int minimum = i;
+            for (int j = i + 1 ; j < size; j++) {
+                //sorting condition: find the minimum

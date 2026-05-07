@@ -87,3 +87,4 @@ public class Pick3Easiest {
 
     public static void BubbleSort(ArrayList<Integer> dataset){
         int size;
+        size = dataset.size();

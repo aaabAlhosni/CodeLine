@@ -21,3 +21,4 @@ public class MazeLoader {
         }
 
         try {
+            String fileContent = Files.readString(mazePath);

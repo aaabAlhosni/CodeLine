@@ -45,3 +45,4 @@ public class Position {
     // oop methods to reuse varraibles in other classes
     public static int getStartRow(){
         return startrow;
+    }

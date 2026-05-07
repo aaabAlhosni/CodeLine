@@ -131,3 +131,4 @@ public class MazeSolver {
 
             // mark the path with X
             for (int[] cell : track) {
+                int r = cell[0];

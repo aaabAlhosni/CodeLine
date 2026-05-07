@@ -76,3 +76,5 @@ public class MazeRender {
             System.out.println();
         }
     }
+
+    public static void delayTime(long seconds) {

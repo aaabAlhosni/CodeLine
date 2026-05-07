@@ -95,3 +95,6 @@ public class Pick3Easiest {
                 if (dataset.get(j) < dataset.get(j+1))
                 {
                     //Swapping elements
+                    int temp = dataset.get(j);
+                    dataset.set(j, dataset.get(j+1));
+                    dataset.set(j+1, temp);

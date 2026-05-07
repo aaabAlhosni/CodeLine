@@ -71,3 +71,4 @@ public class MazeRender {
     }
 
     public static void printspaces() {
+        int spaces = 3;

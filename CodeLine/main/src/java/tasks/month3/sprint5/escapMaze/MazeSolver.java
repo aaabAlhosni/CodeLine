@@ -99,3 +99,5 @@ public class MazeSolver {
 
             // seek: try Left, Right, Up, Down from current position
             boolean foundNeighbour = false;
+
+            for (int d = 0; d < 4; d++) {

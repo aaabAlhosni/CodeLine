@@ -125,3 +125,4 @@ public class MazeSolver {
             // if no neighbours found ,then dead end, backtrack via stack automatically
             if (!foundNeighbour && !stack.isEmpty()) {
                 int[] backtrack = stack.peek();          // peek at where we backtrack to
+                System.out.printf("dead end — backtracking to (%d,%d)\n",

@@ -62,3 +62,5 @@ public class MazeSolver {
 
         // Update visited point
         visited = new boolean[rows][cols];
+
+        // -----------------------------------------------

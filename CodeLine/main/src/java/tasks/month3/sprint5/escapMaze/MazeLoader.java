@@ -17,3 +17,4 @@ public class MazeLoader {
             mazePath = Path.of(MazeLoader.class.getResource("./maze.txt").toURI());
         } catch (
                 URISyntaxException e) {
+            throw new RuntimeException(e);

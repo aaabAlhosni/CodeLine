@@ -14,3 +14,4 @@ public class MazeSolver {
     private char[][] array2d = MazeLoader.getArray2d();
     private int startrow = Position.getStartRow();
     private int startColumn = Position.getStartColumn();
+    private int exitRow = Position.getExitRow();

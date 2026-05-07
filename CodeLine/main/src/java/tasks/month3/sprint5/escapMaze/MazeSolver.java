@@ -18,3 +18,4 @@ public class MazeSolver {
     private int exitcolum = Position.getExitcolum();
 
     // Stack  for (push/pop each open '0')
+    // each push or pop will be like {row, col}

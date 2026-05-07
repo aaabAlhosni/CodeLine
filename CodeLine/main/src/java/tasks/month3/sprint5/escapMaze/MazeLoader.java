@@ -37,3 +37,4 @@ public class MazeLoader {
             }
         } catch (
                 IOException e) {
+            throw new RuntimeException(e);

@@ -53,3 +53,4 @@ public class MazeRender {
 
         }
         if (!solved) {
+            System.out.println("+++++++++++++ Maze is OVER ++++++++++++++");

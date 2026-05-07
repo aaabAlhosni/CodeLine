@@ -45,3 +45,4 @@ public class MazeLoader {
     //---------------------------------------
     // oop methods to reuse varraibles in other classes
     public static char[][] getArray2d() {
+        return array2d;

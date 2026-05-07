@@ -25,3 +25,7 @@ public class Pick3Easiest {
         try {
             //taking input
             method = args[0].toLowerCase().trim();
+
+            //split the complains List {6,8,10,3,43,2}
+
+            String[] split = args[1].split(",");

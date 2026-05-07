@@ -95,3 +95,4 @@ public class MazeSolver {
             printMaze(array2d, rows, cols);                        // print the snapshot
             array2d[startrow][startColumn] = previousChar;         // restore original char
             delayTime(1);
+            printspaces();

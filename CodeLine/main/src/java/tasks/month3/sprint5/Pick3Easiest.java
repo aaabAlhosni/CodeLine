@@ -37,3 +37,7 @@ public class Pick3Easiest {
                 numbers[i] = Integer.parseInt(split[i].trim());
                 dataset.add(numbers[i]);
             }
+        } catch (NumberFormatException e){
+            System.out.println("Error: Please provide only integers separated by commas.");
+            }
+    //        int[] proiortyComplains = parseInt(args[1]);

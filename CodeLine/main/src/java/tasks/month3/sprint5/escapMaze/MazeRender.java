@@ -27,3 +27,4 @@ public class MazeRender {
 //        }
 
         // Scan that array for '@' and 'E'
+        Position.getStartExitPosition();

@@ -12,3 +12,4 @@ public class Position {
 
     //--------------------------------------------------
     //oop object varriables
+    private static char[][] array2d = MazeLoader.getArray2d();

@@ -133,3 +133,4 @@ public class MazeSolver {
             for (int[] cell : track) {
                 int r = cell[0];
                 int c = cell[1];
+                if (array2d[r][c] != '@' && array2d[r][c] != 'E') {

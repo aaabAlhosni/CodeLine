@@ -67,3 +67,4 @@ public class MazeRender {
                 System.out.printf("%c ", maze[row][col]);
             }
             System.out.println();
+        }

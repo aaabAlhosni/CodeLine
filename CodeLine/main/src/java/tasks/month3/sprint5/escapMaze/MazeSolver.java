@@ -15,3 +15,4 @@ public class MazeSolver {
     private int startrow = Position.getStartRow();
     private int startColumn = Position.getStartColumn();
     private int exitRow = Position.getExitRow();
+    private int exitcolum = Position.getExitcolum();

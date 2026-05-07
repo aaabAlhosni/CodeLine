@@ -41,3 +41,6 @@ public class Pick3Easiest {
             System.out.println("Error: Please provide only integers separated by commas.");
             }
     //        int[] proiortyComplains = parseInt(args[1]);
+
+        //Print: before sorting
+        System.out.println("Dataset : " + dataset);

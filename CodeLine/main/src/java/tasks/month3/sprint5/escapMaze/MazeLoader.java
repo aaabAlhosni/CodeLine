@@ -13,3 +13,4 @@ public class MazeLoader {
     //------------------------------------------------------------------------------------
     // method to Load maze.txt
     public static char[][] loadMaze(){
+        try {

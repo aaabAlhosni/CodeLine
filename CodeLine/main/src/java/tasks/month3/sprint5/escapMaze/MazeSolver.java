@@ -90,3 +90,4 @@ public class MazeSolver {
             }
 
             // print the maze with '@' at the current position
+            char previousChar = array2d[startrow][startColumn];   // save original char ('0')

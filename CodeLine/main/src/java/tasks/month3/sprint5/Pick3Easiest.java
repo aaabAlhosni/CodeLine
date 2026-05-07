@@ -19,3 +19,5 @@ public class Pick3Easiest {
 
         //Declaring
         ArrayList<Integer> dataset =  new ArrayList<Integer>();
+        String method = "";
+        int[] numbers;

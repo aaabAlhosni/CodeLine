@@ -22,3 +22,6 @@ public class MazeRender {
 //        int[] positions = position.getStartExitPosition();
 //
 //        if (positions.length < 4) {
+//            System.out.println("Error: Could not find start '@' or exit 'E' in maze.");
+//            return;
+//        }

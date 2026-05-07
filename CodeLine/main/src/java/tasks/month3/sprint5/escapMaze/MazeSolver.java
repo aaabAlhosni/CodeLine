@@ -123,3 +123,4 @@ public class MazeSolver {
             }
 
             // if no neighbours found ,then dead end, backtrack via stack automatically
+            if (!foundNeighbour && !stack.isEmpty()) {

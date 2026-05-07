@@ -66,3 +66,4 @@ public class MazeSolver {
         // -----------------------------------------------
         // STEP 4 — PUSH START AND UPDATE CURRENT POSITION
         stack.push(new int[]{startrow, startColumn});  // push '@' position onto stack
+        visited[startrow][startColumn] = true;          // mark start as visited

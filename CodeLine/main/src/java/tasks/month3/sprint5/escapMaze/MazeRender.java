@@ -73,3 +73,4 @@ public class MazeRender {
     public static void printspaces() {
         int spaces = 3;
         for (int spacePrint = 0; spacePrint < spaces; spacePrint++) {
+            System.out.println();

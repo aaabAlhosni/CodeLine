@@ -8,3 +8,5 @@ public class MazeSolver {
 //    // oop creating objects of classes
 //    MazeLoader maze = new MazeLoader();
 //    Position positions = new Position();
+
+    //-------------------------------------------------

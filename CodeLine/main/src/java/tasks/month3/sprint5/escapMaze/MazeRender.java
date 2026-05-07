@@ -38,3 +38,4 @@ public class MazeRender {
 
         printMaze(array2d, rows, cols);    //external method
         delayTime(0);       //extrenal method
+

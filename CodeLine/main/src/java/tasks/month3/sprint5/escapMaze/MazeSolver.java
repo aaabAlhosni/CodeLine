@@ -172,3 +172,11 @@ public class MazeSolver {
 
     public boolean isMazeSolved(){
         return solved;
+
+    }
+
+    public ArrayList<int[]> getTrackedPath(){
+        return track;
+    }
+
+}

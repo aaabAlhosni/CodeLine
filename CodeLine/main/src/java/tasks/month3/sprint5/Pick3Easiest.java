@@ -32,3 +32,6 @@ public class Pick3Easiest {
 
             //convert them to int
             numbers = new int[split.length];
+
+            for (int i = 0 ;i < split.length; i++ ){
+                numbers[i] = Integer.parseInt(split[i].trim());

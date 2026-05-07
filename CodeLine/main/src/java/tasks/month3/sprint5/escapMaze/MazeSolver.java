@@ -36,3 +36,4 @@ public class MazeSolver {
     private boolean solved = false;
 
     //-------------------------------------------------
+    //solving maze

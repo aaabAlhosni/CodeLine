@@ -56,3 +56,4 @@ public class MazeRender {
             System.out.println("+++++++++++++ Maze is OVER ++++++++++++++");
             System.out.println("\t\t\t No path has been found.");
         }
+    }

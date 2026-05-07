@@ -47,3 +47,11 @@ public class MazeLoader {
     public static char[][] getArray2d() {
         return array2d;
     }
+
+
+
+}
+
+
+
+//        int rows = array2d.length;                                     // total rows of the maze

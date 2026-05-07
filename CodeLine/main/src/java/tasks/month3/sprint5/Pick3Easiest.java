@@ -52,3 +52,6 @@ public class Pick3Easiest {
         if (method.equals("selectionsort")) {
             SelectionSort(dataset);
         }
+        else if (method.equals("bubblesort")) {
+            BubbleSort(dataset);
+        }

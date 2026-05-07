@@ -55,3 +55,6 @@ public class Pick3Easiest {
         else if (method.equals("bubblesort")) {
             BubbleSort(dataset);
         }
+
+        //Print: after sorting
+        System.out.printf("After %s: %s\n",method,dataset);

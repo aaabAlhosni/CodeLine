@@ -106,3 +106,4 @@ public class MazeSolver {
                 int nextColumn = startColumn + dCol[d];           // neighbour col
 
                 // move only if inside bounds AND open path '0' or exit 'E' AND not visited
+                if (nextRow >= 0 && nextRow < rows &&

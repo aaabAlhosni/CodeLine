@@ -47,3 +47,6 @@ public class Pick3Easiest {
 //        for (int print : dataset){
 //            System.out.printf("%\n", dataset.get(print));
 //        }
+
+        // process: choose either bubblesorting or selection sorting
+        if (method.equals("selectionsort")) {

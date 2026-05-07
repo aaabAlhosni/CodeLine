@@ -94,3 +94,4 @@ public class MazeSolver {
             array2d[startrow][startColumn] = '@';                  // place '@' at current cell
             printMaze(array2d, rows, cols);                        // print the snapshot
             array2d[startrow][startColumn] = previousChar;         // restore original char
+            delayTime(1);

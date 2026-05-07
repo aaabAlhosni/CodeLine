@@ -86,3 +86,4 @@ public class MazeSolver {
             // check if we reached the exit 'E'
             if (startrow == exitRow && startColumn == exitcolum) {
                 solved = true;
+                // maze is solved!

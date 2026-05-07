@@ -35,3 +35,5 @@ public class MazeRender {
         newGame.startMaze();
         newGame.solveMaze();        //object elemnt
         solved = newGame.isMazeSolved();        //object elemnt
+
+        printMaze(array2d, rows, cols);    //external method

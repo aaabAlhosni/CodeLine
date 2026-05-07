@@ -13,3 +13,4 @@ public class MazeRender {
         boolean solved;
 
         if (array2d == null) {
+            System.out.println("Error: Failed to load maze.");

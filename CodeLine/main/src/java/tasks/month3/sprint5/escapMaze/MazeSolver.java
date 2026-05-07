@@ -169,3 +169,5 @@ public class MazeSolver {
 
 
     }
+
+    public boolean isMazeSolved(){

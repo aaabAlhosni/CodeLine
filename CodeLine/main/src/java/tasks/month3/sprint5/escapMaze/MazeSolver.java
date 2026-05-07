@@ -142,3 +142,4 @@ public class MazeSolver {
 
     // ────────────────────────────────────────────────────────────────
     //  EXTERNAL FUNCTIONS — time delay - making spaces - printing maze
+    // ────────────────────────────────────────────────────────────────

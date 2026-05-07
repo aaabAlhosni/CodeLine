@@ -49,3 +49,4 @@ public class Position {
 
     public static int getStartColumn(){
         return startColumn;
+    }

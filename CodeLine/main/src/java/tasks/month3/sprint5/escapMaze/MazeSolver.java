@@ -157,3 +157,4 @@ public class MazeSolver {
         for (int spacePrint = 0; spacePrint < spaces; spacePrint++) {
             System.out.println();
         }
+    }

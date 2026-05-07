@@ -30,3 +30,4 @@ public class MazeSolver {
     int[] dCol = {1, -1, 0, 0};             // col directions
 
     // visited point: true, false
+    private boolean[][] visited = null;

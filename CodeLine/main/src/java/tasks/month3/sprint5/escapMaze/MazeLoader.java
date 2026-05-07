@@ -29,3 +29,4 @@ public class MazeLoader {
 
             for (int row = 0; row < linesOfFile.length; row++) {
                 char[] currRow = linesOfFile[row].toCharArray();
+                // System.out.printf("%s\n", linesOfFile[row]);

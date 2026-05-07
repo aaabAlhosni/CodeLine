@@ -166,3 +166,4 @@ public class MazeSolver {
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
+

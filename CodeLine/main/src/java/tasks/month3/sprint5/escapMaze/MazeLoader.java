@@ -35,3 +35,4 @@ public class MazeLoader {
                     array2d[row][col] = currRow[col];
                 }
             }
+        } catch (

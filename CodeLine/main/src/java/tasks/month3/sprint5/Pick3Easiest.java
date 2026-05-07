@@ -66,3 +66,4 @@ public class Pick3Easiest {
 
     public static void SelectionSort(ArrayList<Integer> dataset){
         int size;
+        size = dataset.size();

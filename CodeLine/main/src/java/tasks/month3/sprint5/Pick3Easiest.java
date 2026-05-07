@@ -44,3 +44,6 @@ public class Pick3Easiest {
 
         //Print: before sorting
         System.out.println("Dataset : " + dataset);
+//        for (int print : dataset){
+//            System.out.printf("%\n", dataset.get(print));
+//        }

@@ -149,3 +149,4 @@ public class MazeSolver {
                 System.out.printf("%c ", maze[row][col]);
             }
             System.out.println();
+        }

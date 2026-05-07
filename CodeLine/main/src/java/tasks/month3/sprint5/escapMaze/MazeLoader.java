@@ -58,3 +58,7 @@ public class MazeLoader {
 //        int cols = array2d[0].length;
 //
 //        for (int row = 0; row < 10; row++) {
+//        for (int col = 0; col < 10; col++) {
+//            System.out.printf("%c ", array2d[row][col]);
+//        }
+//        System.out.println();

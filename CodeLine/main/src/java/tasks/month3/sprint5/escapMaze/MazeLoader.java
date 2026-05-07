@@ -62,3 +62,4 @@ public class MazeLoader {
 //            System.out.printf("%c ", array2d[row][col]);
 //        }
 //        System.out.println();
+//    }

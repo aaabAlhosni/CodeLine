@@ -81,3 +81,4 @@ public class MazeSolver {
         while (!stack.isEmpty()) {                       // keep going while paths remain
             int[] current = stack.pop();                 // pop top this is our current position
             startrow = current[0];                     // update current row
+            startColumn = current[1];                     // update current col

@@ -83,3 +83,4 @@ public class Pick3Easiest {
             dataset.set(minimum, dataset.get(i));
             dataset.set(i, temp);
         }
+    }

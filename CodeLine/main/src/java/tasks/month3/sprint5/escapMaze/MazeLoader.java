@@ -39,3 +39,4 @@ public class MazeLoader {
                 IOException e) {
             throw new RuntimeException(e);
         }
+        return array2d;

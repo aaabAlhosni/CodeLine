@@ -72,3 +72,7 @@ public class Pick3Easiest {
             int minimum = i;
             for (int j = i + 1 ; j < size; j++) {
                 //sorting condition: find the minimum
+                if (dataset.get(j) < dataset.get(minimum))
+                {
+                    minimum = j;
+                }

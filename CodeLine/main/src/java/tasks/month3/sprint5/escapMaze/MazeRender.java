@@ -68,3 +68,4 @@ public class MazeRender {
             }
             System.out.println();
         }
+    }

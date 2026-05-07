@@ -15,3 +15,4 @@ public class MazeRender {
         if (array2d == null) {
             System.out.println("Error: Failed to load maze.");
             return;
+        }

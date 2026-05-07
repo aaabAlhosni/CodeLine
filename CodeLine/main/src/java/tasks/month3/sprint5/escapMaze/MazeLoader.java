@@ -28,3 +28,4 @@ public class MazeLoader {
             array2d = new char[linesOfFile.length][lineLength];  // Load it in 2D Array or Array of Arrays
 
             for (int row = 0; row < linesOfFile.length; row++) {
+                char[] currRow = linesOfFile[row].toCharArray();

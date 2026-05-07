@@ -137,3 +137,4 @@ public class MazeSolver {
                     array2d[r][c] = 'X';
                 }
             }
+        }

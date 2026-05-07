@@ -49,3 +49,4 @@ public class MazeRender {
             for (int[] positions : newGame.getTrackedPath()) {
                 System.out.printf("[%d,%d] ", positions[0], positions[1]);
             }
+            System.out.println();

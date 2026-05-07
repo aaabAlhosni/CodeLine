@@ -69,3 +69,5 @@ public class MazeRender {
             System.out.println();
         }
     }
+
+    public static void printspaces() {

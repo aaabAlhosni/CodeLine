@@ -20,3 +20,4 @@ public class MazeSolver {
     // Stack  for (push/pop each open '0')
     // each push or pop will be like {row, col}
     Stack<int[]> stack = new Stack<>();
+    ArrayList<int[]> track = new ArrayList<>();

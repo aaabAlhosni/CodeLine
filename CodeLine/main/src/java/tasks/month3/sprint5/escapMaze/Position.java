@@ -46,3 +46,5 @@ public class Position {
     public static int getStartRow(){
         return startrow;
     }
+
+    public static int getStartColumn(){

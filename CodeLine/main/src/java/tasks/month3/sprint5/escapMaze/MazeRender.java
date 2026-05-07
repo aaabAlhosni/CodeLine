@@ -60,3 +60,4 @@ public class MazeRender {
 
     // ────────────────────────────────────────────────────────────────
     //  EXTERNAL FUNCTIONS — time delay - making spaces - printing maze
+    // ────────────────────────────────────────────────────────────────

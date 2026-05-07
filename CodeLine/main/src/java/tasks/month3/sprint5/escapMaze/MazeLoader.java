@@ -34,3 +34,4 @@ public class MazeLoader {
                 for (int col = 0; col < currRow.length; col++) {
                     array2d[row][col] = currRow[col];
                 }
+            }

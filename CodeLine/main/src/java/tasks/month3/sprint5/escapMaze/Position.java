@@ -15,3 +15,5 @@ public class Position {
     private static char[][] array2d = MazeLoader.getArray2d();
     private static int startrow = 0;
     private static int startColumn = 0;    //start
+
+    private static int exitRow = 0;

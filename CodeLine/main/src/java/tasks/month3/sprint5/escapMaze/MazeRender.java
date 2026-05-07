@@ -21,3 +21,4 @@ public class MazeRender {
 //        Position position = new Position();     // oop object
 //        int[] positions = position.getStartExitPosition();
 //
+//        if (positions.length < 4) {

@@ -4,3 +4,4 @@ public class MazeRender {
     public static void main(String[] args) {
 
         // Load the maze
+        MazeLoader.loadMaze();

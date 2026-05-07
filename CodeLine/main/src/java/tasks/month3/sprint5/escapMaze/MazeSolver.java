@@ -27,3 +27,4 @@ public class MazeSolver {
 
     // directions: Left, Right, Up, Down  (in that search order)
     int[] dRow = {0, 0, 1, -1};             // row directions
+    int[] dCol = {1, -1, 0, 0};             // col directions

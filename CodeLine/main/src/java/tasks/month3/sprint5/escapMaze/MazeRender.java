@@ -44,3 +44,5 @@ public class MazeRender {
             System.out.println("\n===========================================");
             System.out.printf("MAZE IS SOLVED!\n an exit is founded: (%d,%d)\n", Position.getExitRow(), Position.getExitcolum());
 //            System.out.println(newGame.getTrackedPath().toString());
+
+            System.out.print("Path taken: ");

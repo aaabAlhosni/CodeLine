@@ -28,3 +28,4 @@ public class Position {
                     startColumn = col;                 // found start col
                 }
                 if (array2d[row][col] == 'E') {
+                    exitRow = row;                  // found exit row

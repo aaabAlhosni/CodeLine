@@ -42,3 +42,4 @@ public class MazeSolver {
         //error handling
         if (array2d == null) {
             System.out.println("Error: Maze could not be loaded.");
+            return;

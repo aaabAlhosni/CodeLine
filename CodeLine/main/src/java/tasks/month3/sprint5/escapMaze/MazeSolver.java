@@ -164,3 +164,4 @@ public class MazeSolver {
         try {
             Thread.sleep(seconds * 1000);
         } catch (InterruptedException e) {
+            throw new RuntimeException(e);

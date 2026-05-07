@@ -44,3 +44,18 @@ public class MazeSolver {
             System.out.println("Error: Maze could not be loaded.");
             return;
         }
+
+//        // oop import Start/exit Varriables
+//        int[] listOfPositions = positions.getStartExitPosition(array2d);
+//        //error handling
+//        if (listOfPositions.length < 4) {
+//            return;
+//        }
+//        int startrow = listOfPositions[0];
+//        int startColumn = listOfPositions[1];
+//        int exitRow = listOfPositions[2];
+//        int exitcolum = listOfPositions[3];
+
+//        public int[] startposition(){
+//            int startrow
+//        }

@@ -50,3 +50,5 @@ public class Pick3Easiest {
 
         // process: choose either bubblesorting or selection sorting
         if (method.equals("selectionsort")) {
+            SelectionSort(dataset);
+        }

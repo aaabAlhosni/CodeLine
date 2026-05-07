@@ -128,3 +128,5 @@ public class MazeSolver {
                 System.out.printf("dead end — backtracking to (%d,%d)\n",
                         backtrack[1], backtrack[0]);     // print backtrack position
             }
+
+            // mark the path with X

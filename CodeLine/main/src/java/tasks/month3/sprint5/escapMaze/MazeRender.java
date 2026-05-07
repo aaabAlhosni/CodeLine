@@ -6,3 +6,4 @@ public class MazeRender {
         // Load the maze
         MazeLoader.loadMaze();
         char[][] array2d = MazeLoader.getArray2d();
+        // oop attributes

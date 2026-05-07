@@ -22,3 +22,4 @@ public class Position {
     public static void getStartExitPosition(){
 
         for (int row = 0; row < array2d.length; row++) {
+            for (int col = 0; col < array2d[row].length; col++) {

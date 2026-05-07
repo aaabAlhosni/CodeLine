@@ -35,3 +35,4 @@ public class Position {
         }
 
         //handle error
+        if (startrow == -1 || exitRow == -1) {

@@ -14,3 +14,4 @@ public class MazeLoader {
     // method to Load maze.txt
     public static char[][] loadMaze(){
         try {
+            mazePath = Path.of(MazeLoader.class.getResource("./maze.txt").toURI());
